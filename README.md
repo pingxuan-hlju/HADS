@@ -9,7 +9,10 @@ This study introduces a prediction model driven by Hyperedge-topology-enhanced H
 - /data:  Contains the datasets used in the model.
 - /code: Contains the implementation code for HADS.
 - data_process.py: Processes drug and side effect similarities, associations, features, and adjacency matrices (hypergraph and line graph) for training and testing.
-- HGCN.py,LGCN.py,AMT.py，FLGN: Implementations of hypergraph convolution, line graph convolution, adaptive multi-graph Transformer, and feature-level gating network, respectively.
+- HGCN.py: Hypergraph convolution.
+- LGCN.py: Line graph convolution.
+- AMT.py: Adaptive multi-graph Transformer.
+- FLGN.py: Feature-level gating network.
 - model_all.py: Full model integration.
 - main.py: Parameter settings, model training and testing.
 
