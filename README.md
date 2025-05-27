@@ -7,8 +7,7 @@ This study introduces a prediction model driven by Hyperedge-topology-enhanced H
 
 ## Catalogs
 - /data:  Contains the datasets used in the model.
-- /code: Contains the implementation code for HADS.
-- data_process.py: Processes drug and side effect similarities, associations, features, and adjacency matrices (hypergraph and line graph) for training and testing.
+- data_process.py: Processes drug and side effect similarities, associations, features, and adjacency matrices for training and testing.
 - HGCN.py: Hypergraph convolution.
 - LGCN.py: Line graph convolution.
 - AMT.py: Adaptive multi-graph Transformer.
